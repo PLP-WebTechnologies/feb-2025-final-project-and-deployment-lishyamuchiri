@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact My Blog - Get in touch with us.">
+    <meta name="keywords" content="blog, contact, form">
+    <meta name="author" content="Your Name">
+    <title>My Blog - Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul>
+                <li><a href="./index.html" aria-current="page">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required aria-required="true">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required aria-required="true">
+                <label for="message">Message:</label>
+                <textarea id="message" required aria-required="true"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Blog. All rights reserved.</p>
+    </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
